@@ -1,8 +1,6 @@
-## General info
+## General info - OpenStreetMapRouteFinder
 The rapid method for shortest path searching using undirected graphs with Open Street Map data.
  
-# UndirectedGraphs
-
 ## Overview
 This repository contains a method for finding the shortest path in undirected graphs using data from Open Street Map (OSM). The approach is demonstrated through a Jupyter Notebook.
 
