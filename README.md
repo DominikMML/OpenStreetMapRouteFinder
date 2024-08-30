@@ -1,33 +1,26 @@
 ## General info - OpenStreetMapRouteFinder
-The rapid method for shortest path searching using undirected graphs with Open Street Map data.
- 
-## Overview
-This repository contains a method for finding the shortest path in undirected graphs using data from Open Street Map (OSM). The approach is demonstrated through a Jupyter Notebook.
+OpenStreetMap Route Finder is a Python-based project designed to find the shortest path between two points using OpenStreetMap (OSM) data. The project leverages the power of graph theory and geospatial analysis to calculate the shortest routes on undirected graphs, which are constructed from OSM road networks.
 
 ## Features
-- Implementation of the shortest path algorithm for undirected graphs.
-- Utilizes Open Street Map data for practical graph analysis.
 
-## Files
-- `Undirected_Graphs_Shortest_Path.ipynb`: Jupyter Notebook demonstrating the shortest path algorithm.
+- **Shortest Path Calculation**: Computes the shortest path between two points using Dijkstra's algorithm.
+- **Graph Construction**: Constructs undirected graphs from OpenStreetMap road networks.
+- **Geospatial Analysis**: Utilizes geospatial libraries like `geopandas` and `shapely` for spatial data processing.
+- **Visualization**: Provides visual representations of routes and graphs using `matplotlib` and `contextily`.
 
-## Requirements
-- Jupyter Notebook
-- Libraries used: contextily, networkx, shapely
 
-## Usage
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/DominikMML/UndirectedGraphs.git
-    ```
-2. Install required libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Run the Jupyter Notebook:
-    ```bash
-    jupyter notebook Undirected_Graphs_Shortest_Path.ipynb
-    ```
+## Dependencies
+The project relies on the following Python libraries:
+- networkx
+- geopandas
+- shapely
+- matplotlib
+- contextily
+- numpy
+- osmnx
 
-## Author
-- DominikMML
+## Acknowledgments
+
+This project uses data from [OpenStreetMap](https://www.openstreetmap.org). We would like to thank the OpenStreetMap community for their effort in collecting and maintaining the freely available geographic data.
+
+OpenStreetMap data is made available under the [Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/), and any derived works are also subject to this license. If you use this data in your research or project, please provide proper attribution to OpenStreetMap and its contributors.
